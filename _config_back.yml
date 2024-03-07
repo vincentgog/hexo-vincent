@@ -11,13 +11,6 @@ author: Vincent
 language: zh-CN
 timezone: ''
 
-# Menu 目錄
-menu:
-  Home: / || fas fa-home
-  Archives: /archives/ || fas fa-archive
-  Tags: /tags/ || fas fa-tags
-  Categories: /categories/ || fas fa-folder-open
-
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://vincentgc.github.io
@@ -111,8 +104,8 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:vincentgog/vincentgog.github.io
-  branch: main
+  repository: git@github.com:vincentgc/vincentgc.github.io.git
+  branch: master
 
 search:
   path: search.xml
